@@ -81,7 +81,7 @@ btnPopup1.addEventListener('click', () => {
 
   let output = '';
 
-  popupObj[objtracker].technologies.forEach((techContent) => {
+  popupObj[objtracker.technologies.forEach((techContent) => {
     output += `
         <span> ${techContent} </span>
     `;
@@ -239,7 +239,7 @@ btnPopup4.addEventListener('click', () => {
               </div>
           </div>
      `;
-  overLayContainer.style.display = 'block';
+  overLayContainer.style.display = 'blok';
   popupContainer.style.display = 'block';
 });
 
@@ -271,7 +271,7 @@ function storageAvailable(type) {
   }
 }
 
-function toWebServer() {
+function toWebserver() {
   const formInputs = {
     inputName: nameInput.value,
     inputEmail: emailInput.value,
